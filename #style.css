@@ -1,0 +1,166 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: rgb(9, 147, 202);
+}
+header{
+    background-color: rgb(9, 147, 202);
+    padding: 30px;
+    text-align: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+header h1{
+    font-weight: bold;
+    font-family: arial;
+    font-style: italic;
+    font-size: 60px;
+    margin-bottom: 50px;
+    color: white;
+}
+header nav ul{
+    font-size: 30px;
+    font-style: italic;
+    font-family: arial;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+    
+}
+
+
+.flex{
+    display: flex;
+    color: white;
+}
+.flex figure{
+    width: 100%;
+    height: 100%;
+    margin: 0 0 0 10%;
+    padding: 0;
+}
+
+
+.flex .right{
+    margin: 40px 100px 0 80px;
+    padding: 0;
+    
+}
+.flex .title{
+    margin: 50px;
+    padding: 0;
+    font-weight: bold;
+    font-size: 60px;
+    text-decoration: underline;
+    color: white;
+}
+.flex .text{
+    width: 75%;
+    margin: 10px 0 0;
+    padding: 0;
+    font-size: 25px;
+    color: white;
+    white-space: pre-line;
+    font-family:"UD デジタル 教科書体 N-R", "BIZ UDゴシック Regular", "Hiragino Kaku Gothic ProN", "ascii";
+}
+
+/*hobby*/
+.container {
+    display: flex; 
+    align-items: center; 
+    margin: 100px; 
+    color: white;
+}
+
+.left{
+    width: 50%;
+    margin-right: 100px;
+    padding: 50px;
+    text-align: left;
+}
+
+.left .title{
+    font-size: 60px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 50px;
+    
+}
+.left .text{
+    width: 100%;
+    font-size: 25px;
+    text-align: left;
+    line-height: 1.6;
+    letter-spacing: 5px;
+    white-space: pre-line;
+    font-family:"UD デジタル 教科書体 N-R", "BIZ UDゴシック Regular", "Hiragino Kaku Gothic ProN", "ascii";
+}
+.photo {
+    margin: 60px; 
+    display: flex; 
+    flex-direction: column; 
+    gap: 60px; 
+    justify-content: center;
+}
+/* 丸い画像のスタイル */
+.photo img {
+    width: 300px; 
+    height: 300px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+}
+
+/*ここから衣食住*/
+
+section .QOL {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+
+h1 {
+    margin-top: 20px;
+    font-size: 60px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    color: white;
+    
+}
+.QOL .container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.box {
+    border: 4px solid white;
+    width: 30%;
+    height: 400px;
+    margin: 0 20px;
+    position: relative;
+    font-size: 24px;
+}
+.box h2 {
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 28px;
+}
+.content {
+    padding: 20px;
+    text-align: left;
+    font-size: 20px;
+    white-space: pre-line;
+    font-family:"UD デジタル 教科書体 N-R", "BIZ UDゴシック Regular", "Hiragino Kaku Gothic ProN", "ascii";
+}
